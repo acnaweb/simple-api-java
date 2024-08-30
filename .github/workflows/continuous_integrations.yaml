@@ -1,7 +1,9 @@
 name: Continuous Integration FIAP
 
 on:
-  pull_request:       
+  pull_request:
+    branches:
+      - develop     
 
 jobs:
     build:
