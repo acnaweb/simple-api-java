@@ -1,8 +1,9 @@
 name: Continuous Integration FIAP
 
-on:    
-    pull_request:          
-        branches: "feature/**" 
+on:
+    pull_request:
+        types: [opened, reopened]
+        branches: "feature/**"        
 
 jobs:
     build:
