@@ -15,7 +15,7 @@
 	<name>mvc-rh</name>
 	<description>Simple API Java</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 		<mysql-connector-java.version>8.0.33</mysql-connector-java.version>
 		<modelmapper.version>3.2.0</modelmapper.version>
 		<springdoc-openapi.version>2.5.0</springdoc-openapi.version>
