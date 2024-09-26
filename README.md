@@ -14,7 +14,7 @@ Aplicação API teste
 docker compose up --build
 ```
 
-## Testes unitários (validação)
+## Testes unitários (validação1.0)
 
 ./mvnw test
 

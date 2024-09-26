@@ -13,6 +13,6 @@ services:
       - "8080:8080"
     environment:
       - PROFILE=dev
-      - DATABASE_URL=jdbc:mysql://db:3306/api?createDatabaseIfNotExist=true
+      - DATABASE_URL=jdbc:mysql://bd-fiap-api-dev1.mysql.database.azure.com
       - DATABASE_USER=root
       - DATABASE_PWD=root_pass
