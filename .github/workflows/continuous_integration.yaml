@@ -1,10 +1,10 @@
-name: Continuous Integration FIAP
+name: Continuous Integration
 on:
     pull_request:
-        branches: 
-          - develop
+        types: [opened, reopened]
+        branches: "feature/**"
 jobs:
-    build:
+    tests:
         runs-on: ubuntu-latest
         steps:             
         -  
