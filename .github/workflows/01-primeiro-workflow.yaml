@@ -1,0 +1,18 @@
+name: Meu primeiro Workflow
+on: push
+
+jobs:
+    job1-hello:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Imprimir mensagem
+          run: echo "Olá, Mundo!"
+    job2-goodbye:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Step 1 - Sequencia de instruções
+          run: |
+            echo "Vejam o que eu criei \o/"
+            ls            
+        - name: Step 2 - Imprimir mensagem
+          run: echo "Até logo!"
