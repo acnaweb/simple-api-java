@@ -2,6 +2,8 @@
 
 Aplicação API 
 
+### Aplicação teste para estudar CI/CD e Azure
+
 ## Pré-requisitos
 
 - Java 21
