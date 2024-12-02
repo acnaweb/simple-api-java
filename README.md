@@ -25,3 +25,5 @@ http://localhost:8080/swagger-ui/index.html
 
 ![](/assets/images/swagger.png)
 
+Alteração para teste CI 2
+
