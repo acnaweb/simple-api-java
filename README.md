@@ -1,6 +1,7 @@
 # Simple API Java
 
 Aplicação API 
+Conectado com Azure Devops
 
 ## Pré-requisitos
 
@@ -14,7 +15,7 @@ Aplicação API
 docker compose up --build
 ```
 
-## Testes unitários (validação)
+## Testes unitários 
 
 ./mvnw test
 
