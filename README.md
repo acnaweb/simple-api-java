@@ -1,6 +1,6 @@
 # Simple API Java
 
-Aplicação API 
+Aplicação API TESTE COMMIT
 
 ## Pré-requisitos
 
@@ -8,7 +8,10 @@ Aplicação API
 - Git
 - Docker
 
+
+
 ## Build e execução
+aa
 
 ```sh
 docker compose up --build
