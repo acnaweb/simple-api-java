@@ -1,6 +1,6 @@
 # Simple API Java
 
-Aplicação API 
+Aplicação API
 
 ## Pré-requisitos
 
@@ -17,7 +17,6 @@ docker compose up --build
 ## Testes unitários (validação)
 
 ./mvnw test
-
 
 ## Documentação online (OpenAPI)
 
