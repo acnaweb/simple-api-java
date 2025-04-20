@@ -14,7 +14,7 @@ Aplicação API
 docker compose up --build
 ```
 
-## Testes unitários (validação)
+## Testes unitários
 
 ./mvnw test
 
@@ -25,3 +25,5 @@ http://localhost:8080/swagger-ui/index.html
 
 ![](/assets/images/swagger.png)
 
+## Gerando commit
+- AB#7
