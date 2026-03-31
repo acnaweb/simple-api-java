@@ -42,7 +42,7 @@ public class ProdutoController {
         ProdutoResponseDto responseDto = produtoService
                 .findById(id)
                 .map(produto -> new ProdutoResponseDto().toDto(produto))
-                .orElseThrow(() -> new RuntimeException("Deu merda"));
+                .orElseThrow(() -> new RuntimeException("Erro"));
         
                 return ResponseEntity.ok().body(responseDto);
     }
@@ -58,7 +58,7 @@ public class ProdutoController {
     @PutMapping("{id}")
     public ResponseEntity<ProdutoResponseDto> update(@PathVariable Long id, @RequestBody ProdutoUpdateDto requestDto) {
         if (! produtoService.existsById(id)) {
-            new RuntimeException("Deu merda");
+            new RuntimeException("Erro");
         }
 
         Produto produto = produtoService.saveOrUpdate(requestDto.toModel());
@@ -70,7 +70,7 @@ public class ProdutoController {
     @DeleteMapping("{id}")
     public ResponseEntity<?> update(@PathVariable Long id) {
         if (!produtoService.existsById(id)) {
-            new RuntimeException("Deu merda");
+            new RuntimeException("Erro");
         }
         
         produtoService.delete(id);
