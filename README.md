@@ -1,6 +1,6 @@
 # Simple API Java
 
-Aplicação API 
+Aplicação API em Java com Spring Boot
 
 ## Pré-requisitos
 
@@ -14,7 +14,7 @@ Aplicação API
 docker compose up --build
 ```
 
-## Testes unitários (validação)
+## Testes unitários
 
 ./mvnw test
 
